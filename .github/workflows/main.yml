@@ -24,4 +24,4 @@ jobs:
         repository: alibaba/tengine
     - name: build
       run: |
-        ./configure && make && sudo make install
+        ./configure && make && sudo make install && nginx -V
