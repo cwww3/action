@@ -45,5 +45,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: cwww3/nginx:github
+          tags: cwww3/nginx:multi-platform
+          platforms: linux/amd64,linux/arm64
         
